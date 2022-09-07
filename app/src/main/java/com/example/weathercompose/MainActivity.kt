@@ -56,6 +56,7 @@ fun Greeting(name: String) {
         }
 
         Box(modifier = Modifier
+            .background(Color.Red)
             .fillMaxSize(),
             contentAlignment = Alignment.BottomCenter
         ) {
